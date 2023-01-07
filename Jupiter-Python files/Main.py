@@ -9,6 +9,7 @@ from matplotlib import pyplot as plt
 for df in pd.read_csv('OCRDF.csv' , chunksize=1000):
   print("CHUNK DF")
   print(df)
+  print("main")
 
 
 def index_o (object  , name=""):
